@@ -1,0 +1,27 @@
+.f1-lights {
+    display: flex;
+    position: relative;
+    width: 100%;
+    max-width: 520px;
+}
+
+.back-board {
+    position: absolute;
+    left: 5px;
+    right: 5px;
+    top: 50%;
+    height: 5%;
+    background: #000;
+    transform: translateY(-50%);
+}
+
+
+
+
+
+
+
+
+
+
+

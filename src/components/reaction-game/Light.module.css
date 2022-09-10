@@ -1,0 +1,11 @@
+.light {
+    border-radius: 100%;
+    background: #222;
+    margin: 10px;
+}
+
+.light::before {
+    content: '';
+    display: block;
+    padding-top: 100%;
+}

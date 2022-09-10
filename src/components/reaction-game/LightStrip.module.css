@@ -1,0 +1,18 @@
+.light-strip {
+    background: black;
+    border-radius: 11px;
+    margin: 0 2px;
+    position: relative;
+    flex: 1;
+}
+
+.light-strip.on .light:nth-child(1n+3) {
+    background: red;
+}
+
+@media (min-width: 435px) {
+    .light-strip {
+        margin: 0 5px;
+        border-radius: 14px;
+    }
+}
